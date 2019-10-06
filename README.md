@@ -1,24 +1,19 @@
 # Password-Generator
 
-Password - Generator is an application to generate the secure password.
+Password - Generator is an application to generate a secure password. 
 
-#Author
-Shaili Shah
+# Author
+Shaili Shah | 
+[LinkedIn](https://www.linkedin.com/in/shaili-shah-88706512b/) 
+| [GitHub](https://github.com/sshaili) 
 
-[GitHub Pages](https://github.com/sshaili) 
+# Technologies
 
-# Technologies - used
+* HTML
+* Bootstrap
+* CSS 
+* JavaScript
 
-HTML
-Bootstrap
-CSS 
-JavaScript
-
-# URL
-
-[GitHub Pages](https://sshaili.github.io/Password-Generator/)
-
-#Installation
-
-#git clone https://sshaili.github.io/Password-Generator/
-Open HTML file in any browser
+# Installation
+* Clone the repo: `git clone https://github.com/sshaili/Password-Generator.git`
+* Open `Password-Generator.html` in any browser
