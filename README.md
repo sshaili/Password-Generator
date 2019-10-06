@@ -1,4 +1,4 @@
-# Password-Genrator-
+# Password-Generator
 
 Password - Generator is an application to generate the secure password.
 
