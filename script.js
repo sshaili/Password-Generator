@@ -6,14 +6,15 @@ var charTypes = {
 }; 
 var password = ''; 
 var finalPassword = '';
+var charLength = '';
 function pwdGen(){
  
                  
-                var charLength = parseInt(window.prompt("How many characters would you like your password to contain?"));
+                charLength = parseInt(window.prompt("How many characters would you like your password to contain?"));
                 // document.getElementById("charLength").innerHTML = charLength;
 
 
-                if(!isNaN(charLength) && charLength <= 128){
+                if(!isNaN(charLength) && charLength <= 128 && charLength >= 4){
                 var special = confirm("Click OK to confirm including special character");
                 // document.getElementById("special").innerHTML = charTypes.special;
                 
@@ -25,15 +26,18 @@ function pwdGen(){
 
                 var upperCase = confirm ("Click OK to confirm including Uppercase character");
                 //document.getElementById("upperCase").innerHTML = charTypes.upperCase;
-
+test(charLength);
                 }
 
                 else{
-                    alert("password Requirenment : maximum Password size is 128");
+                    alert("password Requirenment :minimum password size is 4 and  maximum Password size is 128");
                     pwdGen();
                     
                 }  
                
+}
+
+function test(){
                 for(var i = 0; i < charLength;i++){
                 specialChar();
                 numericChar();
